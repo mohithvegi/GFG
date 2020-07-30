@@ -16,16 +16,13 @@
       0 ≤ A[i] ≤ 300
 
       Example:
-      Input:
-      2
-      16
-      0 8 4 12 2 10 6 14 1 9 5 13 3 11 7 15
-      6
-      5 8 3 7 9 1
+      Input : a[] = {3, 10, 3, 11, 4, 5, 6, 7, 8, 12}
+      Output : 6
+      Explanation: 3, 4, 5, 6, 7, 8 is the longest increasing subsequence whose adjacent element differs by one.
 
-      Output:
-      6
-      3
+      Input : a[] = {6, 7, 8, 3, 4, 5, 9, 10}
+      Output : 5
+      Explanation: 6, 7, 8, 9, 10 is the longest increasing subsequence
 */
 
 #include<iostream>
