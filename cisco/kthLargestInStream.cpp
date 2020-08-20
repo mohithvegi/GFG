@@ -4,13 +4,6 @@
 
 using namespace std;
 
-int kthLargest(priority_queue<int> pq, int k) {
-    for(int j=0; j<k-1; j++) {
-        pq.pop();
-    }
-    return pq.top();
-}
-
 int main(int argc, char const *argv[]) {
 
     int T;
